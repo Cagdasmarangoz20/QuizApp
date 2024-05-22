@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -390,6 +390,7 @@ Earn 1000 Coins"
     </ScrollView>
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottomMenuId"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@drawable/bottom_bg"
