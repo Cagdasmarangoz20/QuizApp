@@ -1,4 +1,4 @@
-package com.cagdasmarangoz.quizapp.Activity
+package com.cagdasmarangoz.quizapp.activity
 
 import android.os.Bundle
 import android.view.WindowManager
