@@ -10,7 +10,7 @@ import com.cagdasmarangoz.quizapp.Adapter.LeaderAdapter.ViewHolder
 import com.cagdasmarangoz.quizapp.domain.UserModel
 import com.cagdasmarangoz.quizapp.databinding.ViewholderLeaderBinding
 
-class LeaderAdapter : RecyclerView.Adapter<ViewHolder>() {
+class   LeaderAdapter : RecyclerView.Adapter<ViewHolder>() {
     private lateinit var binding: ViewholderLeaderBinding
 
     inner class ViewHolder : RecyclerView.ViewHolder(binding.root)
